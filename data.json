@@ -1,0 +1,88 @@
+{
+    "journal": {
+      "nomJournal": "Data Analytics Digest",
+      "phraseAccroche": "Votre source d'informations et d'analyses sur la data science et l'analyse de données",
+      "texteAppelAction": "Inscrivez-vous à notre newsletter pour rester à jour sur les dernières tendances en data analytics !",
+      "articlePrincipal": {
+        "titre": "Les tendances émergentes en data analytics : ce qu'il faut savoir",
+        "description": "Découvrez les innovations, les défis et les opportunités dans le monde en constante évolution de la data science.",
+        "date": "25 Avril 2024",
+        "theme": "Data analytics",
+        "image":"https://i.pinimg.com/736x/82/66/f2/8266f250349bc171277168794438255c.jpg"
+      },
+      "articles": [
+        {
+          "titre": "L'importance de l'interprétabilité des modèles d'apprentissage automatique",
+          "date": "20 Avril 2024",
+          "theme": "Apprentissage automatique",
+          "image":"images/Apprentissage automatique.webp"
+        },
+        {
+          "titre": "Entretien avec un data scientist : les compétences essentielles pour réussir dans le domaine",
+          "date": "15 Avril 2024",
+          "theme": "Interview",
+          "image":"images/interview.webp"
+        },
+        {
+          "titre": "Top 10 des outils d'analyse de données pour les entreprises en 2024",
+          "date": "5 Avril 2024",
+          "theme": "Outils",
+          "image":"images/outils.png"
+        },
+        {
+          "titre": "Analyse de tendances : l'évolution de l'analyse prédictive dans les entreprises",
+          "date": "28 Mars 2024",
+          "theme": "Analyse prédictive",
+          "image":"images/precidive.png"
+        },
+        {
+          "titre": "L'impact de l'IA et du machine learning sur la transformation numérique des entreprises",
+          "date": "20 Mars 2024",
+          "theme": "Intelligence artificielle",
+          "image":"images/impact IA.png"
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Apprentissage automatique",
+          "description": "Articles et analyses sur les techniques et les applications de l'apprentissage automatique."
+        },
+        {
+          "nom": "Interview",
+          "description": "Entretiens avec des experts et des professionnels de la data science."
+        },
+        {
+          "nom": "Outils",
+          "description": "Présentation des outils et des technologies utilisés dans l'analyse de données."
+        },
+        {
+          "nom": "Analyse prédictive",
+          "description": "Exploration des méthodes et des applications de l'analyse prédictive."
+        },
+        {
+          "nom": "Intelligence artificielle",
+          "description": "Articles sur l'IA, le machine learning et leur utilisation dans l'analyse de données."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "David",
+          "typeExperience": "Data scientist senior",
+          "presentation": "Avec des années d'expérience dans le domaine de la data science, je partage mes connaissances et mon expertise à travers des analyses approfondies et des conseils pratiques.",
+          "image":"images/avatar-david.png"
+        },
+        {
+          "prenom": "Sophie",
+          "typeExperience": "Consultante en data analytics",
+          "presentation": "Je suis passionnée par l'impact de la data science sur les entreprises et je vous offre des analyses perspicaces pour vous aider à tirer le meilleur parti de vos données.",
+          "image":"images/avatar sophie.png"
+        },
+        {
+          "prenom": "Alexandre",
+          "typeExperience": "Expert en intelligence artificielle",
+          "presentation": "Avec une expertise approfondie en IA et en machine learning, je vous guide à travers les dernières avancées technologiques et leurs implications dans le domaine de la data science.",
+          "image":"images/avatar alexendre.jpg"
+        }
+      ]
+    }
+  }
