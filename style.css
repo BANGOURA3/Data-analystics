@@ -4,6 +4,7 @@ html, body{
    padding: 0;
    background-color: rgb(255, 255, 255);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -18,87 +19,23 @@ nav {
     object-fit: cover;
     padding:  20px; /* Espacement interne */
     margin: none;
-    color: #0A0909; /* Couleur du texte */
+    color:#0A0909; /* Couleur du texte */
     /* width: 100%;  */
     z-index: 10;
-    height: 145px;
+    height: 400px;
+    gap: 130px;
  }
   ul {
     list-style: none;
     display: flex;
-    gap: 30px;
-    margin-left: 400px;
+    gap: 100px;
+    margin-left: 20px;
     margin-right: 20px;
+    font-size: 3vh;
     }/* Espacement entre les éléments de la liste */
  nav ul li a {
     text-decoration: none;
     color: #fff;
- }
- nav a:hover {
-    color: black;
- }
- .button1 a {
-    background-color: rgb(55, 20, 255); /* Couleur du bouton */
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    /* margin-left: 600px; */
- }
-.avatar {
-    height: 90px;
-}
- /*FIN de la Section NAV */
- /*Section HEADER*/
- header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px; /* Espacement interne */
-    margin: none;
-    color: #0A0909; /* Couleur du texte */
-    /* width: 100%;  */
-     height: 350px;
-    /* z-index: 10; */
-    background-color: white;
- }
-  h1, header{
-   text-align: center;
-   font-size: 40px;
-   color: #0A0909;
-   }
-   h1 {
-   margin: 0;
-   font-size: 36px;
-   }
- /*header h1 {
-    color: #fff;
- }
- header p {
-      position: absolute;
-      top: 45%;
-      left: 55%;
-      transform: translate(-50%, -50%);
-      color: rgb(4, 4, 4);
-      text-align: center;
-      font-size: 2.0rem;
- }
- h2 {
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 20px;
- }*/
- .article {
-   margin-top: 10px;
-    box-shadow: 0 4px 6px rgba(166, 214, 247, 0.5);
-    border-radius: 10px;
-    background-color: white;
-    width: 30%;
-    overflow: hidden;
-    margin-left: 10px;
  }
  .button2 a {
     background-color: rgb(55, 20, 255); /* Couleur du bouton */
@@ -120,101 +57,14 @@ image {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    /* width: 80%; */
-    /* height: 150px; */
 }
- /*header p {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-top: 150px;
- }*/
- section h1{
-   text-align: center;
-   margin-bottom: 20px;
- }
- .button3 a{
-    background-color: gray; /* Couleur du bouton */
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 120px;
- }
-.container {
-   margin-top: 40px;
-   margin-left: 20px;
-}
-.container h1 {
-    text-align: left;
-    margin-bottom: 20px;
-}
-.container p {
-    text-align: left;
-    margin-bottom: 20px;
-}
- /*FIN de la Section HEADER*/
- /*Section PRESENTATION*/
-
  #imageContainer{
    width:100%;
-   height: 900px;
+   height: 700px;
  }
-.presentation {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    margin-bottom: 40px;
-}
-/*Section THEMES*/
-.themes {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    margin-bottom: 40px;
-}
-/*-SECTION COMPRENANT LA DIV CLASS CONTAINER IMAGE ET BOUTON2-*/
-.produits-container {
-   display: flex;
-   justify-content: space-between;
-   gap: 12px;
-   margin-right: 20px;
-   margin-bottom: 80px;
- }
- .avatar2 {
-   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-   margin-left: 130px;
- }
- #avatar2 h2 {
-   text-align: center;
- }
-.produits-container2 {
-   display: flex;
-   justify-content: space-between;
-   gap: 12px;
-}
-/*-SECTION COMPRENANT LA DIV CLASS l'AVATAR CONTAINER IMAGE ET BOUTON2-*/
-article .image{
-   width: 50%;
-   height: 320px;
-}
-.image img {
-   /* height: 300px;  */
-   /* width: 550px; */
-   width: 62%;
-   height: 100%;
-   object-fit: cover;
-}
+
 article{
-   width: 100%;
+   width: 10%;
 }
 .text{
    display: flex;
@@ -224,6 +74,7 @@ article{
 .text h1{
    text-align:left;
    margin-left: 20px;
+   
 }
 .text h2{
    text-align:left;
@@ -235,22 +86,7 @@ article{
    margin-top: 5px;
    margin-left: 20px;
 }
-/* section AVATAR*/
-.avatar2{
-   width: 100px;
-   height: 100px;
-   object-fit: cover;
-   border-radius: 100%;
-   border: black solid 3px;
-}
- .article h3, p{
-  
-   margin-bottom: 20px;
- }
-  .button2{
-   align-items: center;
- }
- /*Section FIN de la section HEADER*/
+
  footer p {
    text-align: center;
 }
@@ -259,10 +95,22 @@ footer {
    text-align: center; /* Centrer le texte */
    padding: 15px; /* Ajouter un padding */
 }
-.social-icons{
-   margin-top: 20px;
-   margin-bottom: 80px;
-}
+
 nav ul li {
    margin-right: 20px; /* Ajoutez de l'espace entre les éléments de la liste */
+ }
+ #presentation{
+   display: flex;
+   gap: 150px;
+   margin-bottom: 5%;
+   
+ }
+ .text{
+   width: 400px;
+   height: 700px;
+   gap:50px;
+   justify-content: space-between;
+ }
+ #titreId{
+   font-size: 3vh;
  }

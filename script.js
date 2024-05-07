@@ -128,7 +128,7 @@ console.log(dateArticleTableau);
 
 
     let listDesArticles = ` <div class="text">
-    <img src="${imageArticleTableau}" alt=""/>
+    <img class="articles" src="${imageArticleTableau}" alt=""/>
     <h2>${titreArticleTableau}</h2>
     <h3>${themeArticleTableau} - ${dateArticleTableau}</h3>
   
@@ -183,27 +183,22 @@ auteursId.insertAdjacentHTML("beforeend", auteursAll)
 auteurs()
 
 
-function afficherLesThemes() {
+function afficherLesThemesfooter() {
   let themes = data.journal.themes;
   console.log(themes);
-
   themes.forEach(element => {
-    let nomDeTheme = element.nom;
-    console.log(nomDeTheme);
-    let listDeThemes = ` <ul id= "themes_footer">
-    <li>
-          <a href="">${nomDeTheme}</a>
-    </li>
-  </ul>`;
-
-  let themeId = document.getElementById("themes") 
+    let nomDetheme = element.nom;
+    console.log(nomDetheme);
+    let listDeThemes = 
+    `<li>${nomDetheme}</li>`
+  let themeId = document.getElementById("themefin") 
   console.log(themeId);
 
   themeId.insertAdjacentHTML("beforeend", listDeThemes);
   });
 }
 
-afficherLesThemes();
+afficherLesThemesfooter();
 
 
 
