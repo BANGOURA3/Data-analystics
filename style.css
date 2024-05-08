@@ -51,6 +51,8 @@ nav {
     margin-right: 1100px;
     margin-bottom: 40px;
      width: 120px;
+     gap: 50px;
+     font-size:  x-large;;
 }
 image {
     margin-top: 100px;
@@ -113,4 +115,8 @@ nav ul li {
  }
  #titreId{
    font-size: 3vh;
+ }
+ #auteur{
+   display: flex;
+   gap: 10px;
  }
