@@ -120,3 +120,6 @@ nav ul li {
    display: flex;
    gap: 10px;
  }
+ .avatar{
+   border-radius: 100%;
+ }
